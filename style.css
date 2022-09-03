@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0px;
+    padding : 20px;
+    font-size: 60px;
+    height: 10vh;
+}
+body {
+    margin : 0px;
+}
+ol { 
+    padding: 30px;
+    margin: 0px;
+}
+li {
+    clear: black;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    height: 1fr;
+}
+#article {
+    padding-left: 25px;
+}
+li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#navi {
+    border-right: 1px solid gray;
+}
