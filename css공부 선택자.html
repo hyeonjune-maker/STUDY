@@ -20,9 +20,30 @@
                 </ol>
             </div>
             <div id="article">
-                <h2>선택자</h2>
+                <h2>1. 태그 선택자</h2>
                 <p>
-                    
+                    <h3>개요</h3>
+                    태그이름 { 속성1: 속성값1; 속성2: 속성값2; } <br>
+                    처럼 사용하며 해당되는 태그 전부에 스타일을 적용시킵니다.
+                    <h3>사용법</h3>
+                    <div style="background-color:bisque">
+                        span { color:#F00; }<br>
+                        div { color:#0F0; }
+                    </div>  
+                </p>
+                <h2>2. id,class 선택자</h2>
+                <p>
+                    <h3>개요</h3>
+                    태그에서 설정한 id나 class 속성에 따라 스타일을 지정합니다.<br>
+                    id 에 줄 경우 아래처럼 #을 맨 앞에 붙여 사용하며, 원칙적으로 하나의 객체에만 적용할 수 있습니다.<br>
+                    <div style="background-color:bisque">#아이디{ 속성1:속성값; 속성2:속성값; } </div>
+                    class에 줄 경우 아래처럼 .을 맨 앞에 붙여 사용하며, 여러 객체에 적용할 수 있습니다.
+                    <div style="background-color:bisque">.클래스명{ 속성1:속성값; 속성2:속성값 }</div>
+                    <h3>사용법</h3>
+                    <div style="background-color:bisque">
+                        #m_box{ width:500px; height:300px; }<br>
+                        .box{ background-color:blue; }
+                    </div>  
                 </p>
             </div>
         </div>
